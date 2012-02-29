@@ -1,39 +1,17 @@
 
-# Bootstrap
+# PlayWebSocketGridDemo
 
-Webアプリケション開発の基底フレームワーク。PlayFrameworkに個人開発用の基底機能を含めている。
+<iframe src="http://player.vimeo.com/video/37656566?byline=0&amp;portrait=0" width="500" height="563" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-## 機能概要
+### Install
 
-- PlayFramework
-- DDD基底クラス群
-- Twitter OAuth認証
-- アカウントエンティティクラス
-- 自動ログオンエンティティクラス
+    $ git clone git@github.com:asufana/PlayWebSocketGridDemo.git
 
-## インストール
+    $ play test PlayWebSocketGridDemo
 
-githubダウンロードからアプリケーション設定まで。
-
-### セットアップ
-
-    $ git clone git@bitbucket.org:makotohanafusa/bootstrap.git
-
-    $ mv bootstrap YOUR_APPLICATION_NAME
-
-    $ vim YOUR_APPLICATION_NAME/conf/application.conf
-
-        application.name=fav -> YOUR_APPLICATION_NAME 書き換え
-
-    $ play dependencies YOUR_APPLICATION_NAME
-
-    $ play eclipsify YOUR_APPLICATION_NAME
-
-### Eclipseインポート
-
-    File Menu > Import > General > Existing Project > /path/to/YOUR_APPLICATION_NAME
+    Access to http://localhost:9000/
 
 ---
 
-Makoto Hanafusa ( @asufana )
+*Makoto Hanafusa ( <a href="https://twitter.com/#!/asufana" target="_blank">@asufana</a> )*
 
