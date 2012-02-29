@@ -1,7 +1,9 @@
 
 # PlayWebSocketGridDemo
 
-<iframe src="http://player.vimeo.com/video/37656566?byline=0&amp;portrait=0" width="500" height="563" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+### Demo
+
+<a href="https://vimeo.com/37656566" target="_blank">https://vimeo.com/37656566</a>
 
 ### Install
 
