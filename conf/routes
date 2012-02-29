@@ -1,0 +1,23 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# 初期画面
+GET     /                                       Application.index
+# 初期データ取得（XHR）
+GET     /init                                   Application.init
+# ストーリー順序の変更
+POST    /order                                  Application.changeOrder
+# ストーリー順序の更新通知
+WS      /ws                                     Notifications.WebSocket.connect
+# ストーリーの追加
+POST    /story                                  Application.addStory
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
