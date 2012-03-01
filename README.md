@@ -7,7 +7,7 @@
 
 ### Install
 
-    $ git clone git@github.com:asufana/PlayWebSocketGridDemo.git
+    $ git clone git://github.com/asufana/PlayWebSocketGridDemo.git
 
     $ play test PlayWebSocketGridDemo
 
